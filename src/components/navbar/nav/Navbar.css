@@ -56,6 +56,60 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
 }
 
 
+.box-about{
+    display:none;
+    position:relative
+}
+.triangle{
+    display: none;
+}
+
+.box-about-cont:hover .triangle{
+    display: flex;
+    color:#171717;
+    position: absolute;
+    
+}
+
+.box-about-cont:hover .box-about{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: .9em;
+    margin-left: -5em;
+    width: 30em;
+    height: 10em;
+    border-radius: 10px;
+    z-index: 2;
+    background-color: #171717;
+    display: flex;
+    align-items: flex-start;
+    padding: 2em;
+     
+}
+
+.menu-about-container{
+    margin-top: 3em;
+}
+.menu-about-container a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 5em;
+    padding: 1em;
+}
+
+
+
+.box-about-cont:hover .box-about p{
+    background: #6df2a4;
+background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 300;
+}
+
+
 @media screen and (max-width:1270px ){
     .NavContainer{
         display: none;
@@ -64,7 +118,8 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
 .NavContainer-responsive{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
     font-weight: 200;
     padding: 1rem;
     width: 100%;
