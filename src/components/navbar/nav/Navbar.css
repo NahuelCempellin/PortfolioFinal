@@ -9,6 +9,10 @@
     justify-content: space-around;
 }
 
+.contacto:hover{
+    text-decoration: underline;
+}
+
 .menu-box{
    
     width: 30%;

@@ -23,7 +23,7 @@ const Landing = () => {
         <Tech/>
     </div>
 
-    <div className='footer-container'>
+    <div className='footer-container' id='Footer'>
       <Footer/>
     </div>
     </div>
