@@ -14,10 +14,18 @@ const Footer = () => {
           <a>NahuelCempellin@gmail.com</a>
 
           <div className='redes'>
+            <a target={'_blank'} href='https://www.facebook.com/nahuel.cempellin/'>
             <AiFillFacebook/>
+            </a>
+            <a target={'_blank'} href='https://www.instagram.com/nahuelcempellin' >
             <AiOutlineInstagram/>
-            <AiFillLinkedin/>
+            </a>
+            <a>
+            <AiFillLinkedin target={'_blank'} href='https://www.linkedin.com/in/nahuel-felipe-cempellin/'/>
+            </a>
+            <a target={'_blank'} href='https://github.com/NahuelCempellin'>
             <AiFillGithub/>
+            </a>
           </div>
         </div>
       </div>
