@@ -1,0 +1,75 @@
+.footer-c-container{
+/* border: 1px solid white; */
+border-top: 1px solid #938f8f6b;
+width: 90%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 100%;
+
+
+color: #938f8f6b;
+}
+
+.redes{
+    
+    display: flex;
+    align-items: flex-start;
+   
+    justify-content: space-around;
+    font-size: 1.5em;
+    padding: 1em;
+    margin-left: -1.7em;
+}
+
+.message-box{
+    
+    display: flex;
+    width: 30%;
+    height: 20em;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.message-box input{
+    width: 70%;
+    padding: .9em;
+    background-color: transparent;
+    border: 1px solid #938f8f6b;
+    color:#938f8f6b;
+
+}
+
+.message-box textarea{
+    width: 70%;
+    height: 5em;
+    padding: .9em;
+    background-color: transparent;
+    border: 1px solid #938f8f6b;
+    color:#938f8f6b;
+}
+
+.message-box button{
+    background-color: transparent;
+    color: #938f8f6b;
+    font-size: 1em;
+    color:#938f8f6b;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+    border: none;
+}
+
+.message-box button:hover{
+    cursor: pointer;
+}
+
+.message-box:hover .arrow-one{
+    margin-left: 2em;
+    transition: 1s ease;
+}
+
+
+

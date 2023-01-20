@@ -3,6 +3,7 @@ import Carrousel from '../../components/carousel/Carrousel'
 import {BsArrowRight} from 'react-icons/bs'
 import '../../App.css'
 import Tech from '../../components/tecnologies/Tech'
+import Footer from '../../components/footer/Footer'
 
 const Landing = () => {
   return (
@@ -20,6 +21,10 @@ const Landing = () => {
 
     <div className='tech'>
         <Tech/>
+    </div>
+
+    <div className='footer-container'>
+      <Footer/>
     </div>
     </div>
   )
