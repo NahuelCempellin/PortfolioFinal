@@ -1,0 +1,154 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.titleContainer{
+    width: 60%;
+    height: 30em;
+    margin-top:9em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.titleContainer .title{
+    font-size: 4em;
+    font-weight: 300;
+    background: #6df2a4;
+background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.text{
+    padding: .5em;
+    margin-top: 6em;
+    margin-left: -2em;
+    font-weight: 100;
+    width: 80%;
+
+    border-top:1px solid white;
+
+}
+
+.button-container{
+    margin-top: -5em;
+    margin-left: 6em;
+    width: 30%;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.button-container button{
+    width: 45%;
+    padding-left: 1em;
+    height: 3em;
+    border-radius: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+    
+}
+
+.more{
+    background-color: #6df2a4;
+}
+.more:hover .arrow-one{
+    margin-left: 1em;
+    transition: 1s ease;
+}
+
+
+.second{
+    background-color: transparent;
+    color: white;
+}
+
+.second:hover {
+    text-decoration: underline;
+}
+.second:hover .arrow-two{
+    margin-left: 1em;
+    transition: 1s ease;
+}
+
+
+.tech{
+    
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+
+@media screen and (max-width:1270px ){
+    .titleContainer{
+        
+        width: 100%;
+        align-self: center;
+        margin-top: -2em;
+    }
+
+    .titleContainer .title{
+        font-size: 3em;
+    }
+
+    .titleContainer .text{
+        width: 60%;
+        
+    }
+
+    .button-container{
+        width: 80%;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .button-container button{
+        border: none;
+        font-size: .9em;
+        width: 20%;
+    }
+}
+
+
+
+@media screen and (max-width:700px ){
+    .titleContainer .text{
+        
+        width: 90%;
+        margin-left: .7em;
+        
+    }
+    
+    .titleContainer .title{
+        font-size: 2em;
+    }
+
+    .button-container{
+        width: 100%;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 0;
+    }
+    .button-container button{
+        border: none;
+        font-size: .9em;
+        width: 45%;
+    }
+}

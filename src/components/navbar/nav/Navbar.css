@@ -1,0 +1,75 @@
+
+.NavContainer{
+    font-weight: 200;
+    padding: 1rem;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-box{
+   
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-box a {
+
+    color:white;
+    text-decoration: none;
+}
+
+.active:hover {
+    text-decoration: underline;
+}
+
+.signin a{
+    color:white;
+    text-decoration: none;
+}
+
+
+.Logo{
+    font-weight: 300;
+    font-size: 1.5em;
+    background: #9E9D9D;
+background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+.Logo:hover{
+    cursor: pointer;
+}
+
+
+.NavContainer-responsive{
+    display: none; 
+}
+
+
+@media screen and (max-width:1270px ){
+    .NavContainer{
+        display: none;
+    }
+
+.NavContainer-responsive{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 200;
+    padding: 1rem;
+    width: 100%;
+    height: 4rem;
+}
+
+.burguer{
+    margin-right: 2em;
+    font-size: 1.3em;
+    
+}
+}
