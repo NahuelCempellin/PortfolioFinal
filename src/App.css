@@ -59,6 +59,20 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
     
 }
 
+.button-container a{
+    width: 45%;
+    padding-left: 1em;
+    height: 3em;
+    border-radius: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1em;
+    font-weight: 200;
+    text-decoration: none;
+    
+}
+
 .more{
     background-color: #6df2a4;
 }
@@ -73,12 +87,11 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
     color: white;
 }
 
-.second:hover {
-    /* text-decoration: underline; */
-}
+
 .second:hover .arrow-two{
     margin-left: 1em;
     transition: 1s ease;
+    cursor: pointer;
 }
 
 

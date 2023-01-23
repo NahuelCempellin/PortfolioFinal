@@ -57,6 +57,7 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
     align-items: center;
     justify-content: space-around;
     border:none;
+    font-weight: 100;
 }
 
 .project-box{

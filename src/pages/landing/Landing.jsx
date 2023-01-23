@@ -17,7 +17,7 @@ const Landing = () => {
 
     <div className='button-container'>
       <button className='more'>See more <BsArrowRight className='arrow-one'/></button>
-      <button className='second'>Contact me <BsArrowRight className='arrow-two'/></button>
+      <a className='second' href='#Footer'>Contact me <BsArrowRight className='arrow-two'/></a>
     </div>
 
     <div className='tech'>
