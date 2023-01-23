@@ -41,8 +41,10 @@ color: #938f8f6b;
     width: 70%;
     padding: .9em;
     background-color: transparent;
-    border: 1px solid #938f8f6b;
+    border: none;
+    border-bottom: 1px solid #938f8f6b;
     color:#938f8f6b;
+    font-family: Inter;
 
 }
 
@@ -51,8 +53,10 @@ color: #938f8f6b;
     height: 5em;
     padding: .9em;
     background-color: transparent;
-    border: 1px solid #938f8f6b;
+    border: none;
+    border-bottom: 1px solid #938f8f6b;
     color:#938f8f6b;
+    font-family: 'Inter', sans-serif;
 }
 
 .message-box button{
