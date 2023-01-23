@@ -1,5 +1,8 @@
 import React from 'react'
 import{BsFillTriangleFill,BsFillJournalBookmarkFill} from 'react-icons/bs'
+import{AiOutlineLink} from 'react-icons/ai'
+import {CgProfile} from 'react-icons/cg'
+import {CiSettings} from 'react-icons/ci'
 import { NavLink } from 'react-router-dom'
 import Logo from '../../logo/Logo'
 import './Navbar.css'
@@ -16,12 +19,40 @@ const Navbar = () => {
             <NavLink>About</NavLink>
             <BsFillTriangleFill className='triangle'/>
             <div className='box-about'>
-              <p>About me</p>
+              <p>About...</p>
               <div className='menu-about-container'>
+              
+              <a>
+                <div className='circle-about-item'>
+                 <CgProfile className='item-color'/>
+                </div>
+                 Me
+              </a>
+
                <a>
-                 <BsFillJournalBookmarkFill/>
+                <div className='circle-about-item'>
+                 <BsFillJournalBookmarkFill className='item-color'/>
+                </div>
                  Studies
               </a>
+
+              <a>
+                <div className='circle-about-item'>
+                 <CiSettings className='item-color'/>
+                </div>
+                 Work experience
+              </a>
+
+              <a>
+                <div className='circle-about-item'>
+                 <AiOutlineLink className='item-color'/>
+                </div>
+                 Links
+              </a>
+
+
+
+
               </div>
               
             </div>
