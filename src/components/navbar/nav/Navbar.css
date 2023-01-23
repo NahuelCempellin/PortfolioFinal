@@ -171,11 +171,11 @@ font-size: 1.2em;
 .popup-burguer-menu{
     position: absolute;
     background-color: #171717;
-    width: 70%;
+    width: 60%;
     height: 110vh;
     z-index: 2;
     margin-top: 42.5em;
-    margin-left: 20%;
+    margin-left: 30%;
 
 
     display: flex;

@@ -20,8 +20,8 @@ const Footer = () => {
             <a target={'_blank'} href='https://www.instagram.com/nahuelcempellin' >
             <AiOutlineInstagram/>
             </a>
-            <a>
-            <AiFillLinkedin target={'_blank'} href='https://www.linkedin.com/in/nahuel-felipe-cempellin/'/>
+            <a target={'_blank'} href='https://www.linkedin.com/in/nahuel-felipe-cempellin/'>
+            <AiFillLinkedin />
             </a>
             <a target={'_blank'} href='https://github.com/NahuelCempellin'>
             <AiFillGithub/>
