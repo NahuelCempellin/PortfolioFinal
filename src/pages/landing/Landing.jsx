@@ -4,6 +4,7 @@ import {BsArrowRight} from 'react-icons/bs'
 import '../../App.css'
 import Tech from '../../components/tecnologies/Tech'
 import Footer from '../../components/footer/Footer'
+import Projects from '../../components/projects/Projects'
 
 const Landing = () => {
   return (
@@ -21,6 +22,10 @@ const Landing = () => {
 
     <div className='tech'>
         <Tech/>
+    </div>
+
+    <div className='projects' id='project'>
+      <Projects/>
     </div>
 
     <div className='footer-container' id='Footer'>

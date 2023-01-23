@@ -92,6 +92,16 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
     margin-bottom: 6em;
 }
 
+.projects{
+    min-height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30em;
+    margin-bottom: 6em;
+}
+
+
 
 
 .footer-container{

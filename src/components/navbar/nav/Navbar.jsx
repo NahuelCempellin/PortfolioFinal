@@ -57,7 +57,7 @@ const Navbar = () => {
               
             </div>
             </div>
-            <NavLink>Projects</NavLink>
+            <a href='#project'>Projects</a>
             <a href='#Footer' className='contacto'>Contact</a>
             <NavLink>Cofee</NavLink>
         </div>
