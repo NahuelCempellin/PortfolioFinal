@@ -28,7 +28,7 @@
 
 .title-container p{
     border-bottom: 1px solid #938f8f6b;
-    width: 45%;
+    width: 60%;
     font-weight: 200;
     padding-bottom: 1em;
 
@@ -42,6 +42,7 @@
 
 .title-container h2{
     font-weight: 300;
+    font-size: 2em;
     background: #6df2a4;
 background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
 -webkit-background-clip: text;
@@ -201,12 +202,16 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
     }
 
     .title-container p{
-        width: 80%;
+        width: 100%;
     }
 
     .project-box{
         width: 95%;
         height: 35em;
         margin-left: 1.5em;
+    }
+
+    .title-container h2{
+        font-size: 1.5em;
     }
   }

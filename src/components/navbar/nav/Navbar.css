@@ -142,8 +142,8 @@ font-size: 1.2em;
 .NavContainer-responsive{
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    /* flex-direction: column; */
     font-weight: 200;
     padding: 1rem;
     width: 100%;
@@ -151,8 +151,8 @@ font-size: 1.2em;
 }
 
 .burguer{
-    margin-right: 2em;
+    margin-right: 1em;
     font-size: 1.3em;
-    
+    /* border: 1px solid white; */
 }
 }
