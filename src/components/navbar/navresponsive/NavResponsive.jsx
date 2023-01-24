@@ -48,15 +48,12 @@ const NavResponsive = () => {
           <div id='circle'><BiCoffeeTogo/></div>
           <p>Cofee</p>
         </a>
-
+        </div>
 
         <div className='final-menu'>
           <a href='#Footer' onClick={()=>setPopOn(false)}>Contact me</a>
           <a>Sign in</a>
         </div>
-
-        </div>
-
         </div>
     </div>
   )
