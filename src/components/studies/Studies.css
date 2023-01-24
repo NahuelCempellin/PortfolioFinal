@@ -96,6 +96,7 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
 
   @media screen and (max-width:1100px ){
     .stuides-container{
+    width:90%;
     min-height: 65em;
     display: flex;
     align-items: center;
@@ -104,7 +105,7 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
     }
 
     .title-container-studies{
-        width: 70%;
+        width: 100%;
         
         
     }
@@ -114,7 +115,7 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
     }
 
     .studies-box{
-        width: 95%;
+        width: 100%;
         height: 35em;
         margin-left: 1.5em;
     }

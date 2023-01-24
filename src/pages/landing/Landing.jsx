@@ -33,6 +33,10 @@ const Landing = () => {
       <Projects/>
     </div>
 
+    <div className='tech'>
+        <Tech/>
+    </div>
+
     <div className='footer-container' id='Footer'>
       <Footer/>
     </div>

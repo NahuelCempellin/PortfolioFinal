@@ -29,7 +29,7 @@ const Navbar = () => {
                  Me
               </a>
 
-               <a>
+               <a href='#studies'>
                 <div className='circle-about-item'>
                  <BsFillJournalBookmarkFill className='item-color'/>
                 </div>
