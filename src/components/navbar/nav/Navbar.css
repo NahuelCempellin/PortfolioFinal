@@ -250,4 +250,9 @@ font-size: 1.2em;
     
 }
 
+.final-menu a{
+    color: white;
+    text-decoration: none;
+}
+
 }
