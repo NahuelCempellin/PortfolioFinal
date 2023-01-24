@@ -171,11 +171,12 @@ font-size: 1.2em;
 .popup-burguer-menu{
     position: absolute;
     background-color: #171717;
-    width: 60%;
-    height: 110vh;
+    width: 62%;
+    height: 90vh;
     z-index: 2;
-    margin-top: 42.5em;
-    margin-left: 30%;
+    margin-top: 41em;
+    margin-left: 29%;
+    border-radius: 15px;
 
 
     display: flex;
@@ -231,6 +232,22 @@ font-size: 1.2em;
 }
 .pop-off{
     display: none;
+}
+
+
+.final-menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: 55em;
+    padding: 1em;
+    background-color: #262626;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+
+    
 }
 
 }

@@ -49,6 +49,12 @@ const NavResponsive = () => {
           <p>Cofee</p>
         </a>
 
+
+        <div className='final-menu'>
+          <a>Contact me</a>
+          <a>Sign in</a>
+        </div>
+
         </div>
 
         </div>
