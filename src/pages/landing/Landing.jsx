@@ -5,6 +5,7 @@ import '../../App.css'
 import Tech from '../../components/tecnologies/Tech'
 import Footer from '../../components/footer/Footer'
 import Projects from '../../components/projects/Projects'
+import Studies from '../../components/studies/Studies'
 
 const Landing = () => {
   return (
@@ -22,6 +23,10 @@ const Landing = () => {
 
     <div className='tech'>
         <Tech/>
+    </div>
+
+    <div className='projects' id='studies'>
+      <Studies/>
     </div>
 
     <div className='projects' id='project'>

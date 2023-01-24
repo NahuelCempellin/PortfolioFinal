@@ -1,5 +1,5 @@
 .projects-container{
-    width: 96%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -28,7 +28,7 @@
 
 .title-container p{
     border-bottom: 1px solid #938f8f6b;
-    width: 60%;
+    width: 80%;
     font-weight: 200;
     padding-bottom: 1em;
 
