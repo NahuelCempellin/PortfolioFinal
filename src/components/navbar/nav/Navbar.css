@@ -178,7 +178,7 @@ font-size: 1.2em;
     z-index: 2;
     margin-top: 40em;
     margin-left: 29%;
-    border-radius: 15px;
+    /* border-radius: 15px; */
 
 
     display: flex;
