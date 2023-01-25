@@ -8,7 +8,7 @@
 }
 
 .project-title-box{
-    border: 1px solid white;
+    
     width: 100%;
     min-height: 90vh;
     display: flex;
@@ -28,4 +28,37 @@
 .code-icon-projects{
     font-size: 6em;
     margin-right: .5em;
+}
+
+.bakcground-images{
+    /* z-index: -1; */
+    margin-top: 5em;
+    background: #000000; 
+	
+	opacity: 0.3; 
+	-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity= 29); /* // for IE8 */
+	filter: alpha(opacity= 29); /* //for IE5-7 */
+    position: absolute;
+    display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+
+.bakcground-images div{
+
+    width: 15em;
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin: 2em;
+    margin-bottom: 10em;
+
+}
+
+.bakcground-images div img{
+    width: 100%;
 }
