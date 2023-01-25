@@ -156,7 +156,7 @@ font-size: 1.2em;
     align-items: center;
     justify-content: center;
     padding: 1em;
-    padding-top:3em;
+    /* padding-top:3em; */
     background-color: transparent;
     border: none;
     color: white;
@@ -176,7 +176,7 @@ font-size: 1.2em;
     width: 70%;
     height: 95vh;
     z-index: 2;
-    margin-top: 40em;
+    margin-top: 31em;
     margin-left: 26%;
     /* border-radius: 15px; */
 
@@ -243,13 +243,9 @@ font-size: 1.2em;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* position: absolute; */
-    /* margin-top: 1em; */
-    /* padding: 1em; */
     background-color: #262626;
     border-bottom-left-radius:10px ;
-    /* border-bottom-right-radius:10px ; */
-    
+  
     
 }
 

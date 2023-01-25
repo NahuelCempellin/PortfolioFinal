@@ -6,7 +6,6 @@ import{BsFillJournalBookmarkFill} from 'react-icons/bs'
 import{BiCoffeeTogo} from 'react-icons/bi'
 import {MdContactSupport} from 'react-icons/md'
 import {CiSettings} from 'react-icons/ci'
-import { NavLink } from 'react-router-dom'
 import '../nav/Navbar.css'
 
 const NavResponsive = () => {
