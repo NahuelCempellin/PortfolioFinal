@@ -16,12 +16,12 @@ const NavResponsive = () => {
   return (
     <div className='NavContainer-responsive'>
         <Logo/>
-        <button  onClick={()=>setPopOn(!popOn)}>
+        <button className='burguer-button' onClick={()=>setPopOn(!popOn)}>
         <RxHamburgerMenu className='burguer'/>
         </button>
 
         <div className={popOn === true? 'popup-burguer-menu' : 'pop-off'}>
-            <button className='close' onClick={()=>setPopOn(false)}><BsArrowLeft/></button>
+            <button className='close' onClick={()=>setPopOn(false)}><BsArrowLeft className='close'/></button>
 
         <div className='menu-items-responsive'>
 
