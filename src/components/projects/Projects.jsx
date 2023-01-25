@@ -3,6 +3,7 @@ import './Projects.css'
 import {BiCodeAlt} from 'react-icons/bi'
 import {BsArrowRight} from 'react-icons/bs'
 import ProjectsCarrousel from './ProjectsCarrousel'
+import { Link } from 'react-router-dom'
 
 
 const Projects = () => {
@@ -19,7 +20,7 @@ const Projects = () => {
 
             <p>In this section you can see my personal projects, which I have carried out both as a study, and professional projects, in which I have collaborated in their development.</p>
 
-            <button className='second' id='button-renegade'>See more<BsArrowRight className='arrow-two'/></button>
+            <Link to={'/projects'} className='second' id='button-renegade'>See more<BsArrowRight className='arrow-two'/></Link>
 
         </div>
 

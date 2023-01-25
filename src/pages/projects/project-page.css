@@ -1,0 +1,31 @@
+.projects-page-container{
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-title-box{
+    border: 1px solid white;
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+
+}
+.project-title-box h2{
+    font-weight: 200;
+}
+.project-title-box p{
+    font-weight: 200;
+
+}
+
+.code-icon-projects{
+    font-size: 6em;
+    margin-right: .5em;
+}
