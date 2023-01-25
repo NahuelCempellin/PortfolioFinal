@@ -22,12 +22,21 @@
 }
 .project-title-box p{
     font-weight: 200;
+    
 
+}
+
+.project-title-box h1{
+    background: #6df2a4;
+    background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .code-icon-projects{
     font-size: 6em;
     margin-right: .5em;
+    
 }
 
 .bakcground-images{
@@ -61,4 +70,27 @@ grid-row-gap: 0px;
 
 .bakcground-images div img{
     width: 100%;
+}
+
+#kmk{
+    margin-top: 5em;
+}
+
+#res{
+    /* height: 25em; */
+    margin-top: -5em;
+    width: 5em;
+}
+
+#res img{
+    height: 100%;
+
+}
+
+#light{
+    margin-top: 5em;
+}
+
+#black{
+    margin-top: 4em;
 }

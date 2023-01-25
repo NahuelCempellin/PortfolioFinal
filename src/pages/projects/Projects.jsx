@@ -44,11 +44,11 @@ const Projects = () => {
         </div>
 
         <div className='bakcground-images'>
-            <div className='images'>
+            <div className='images' id='light'>
                 <img src={credit} alt=''/>
             </div>
 
-            <div className='images'>
+            <div className='images' id='black'>
                 <img src={dashboard} alt=''/>
             </div>
 
@@ -56,11 +56,11 @@ const Projects = () => {
                 <img src={dashl} alt=''/>
             </div>
 
-            <div className='images'>
+            <div className='images' id='black'>
                 <img src={galuhome} alt=''/>
             </div>
 
-            <div className='images'>
+            <div className='images' id='light'>
                 <img src={galulight} alt=''/>
             </div>
 
@@ -68,15 +68,15 @@ const Projects = () => {
                 <img src={galuLog} alt=''/>
             </div>
 
-            <div className='images'>
+            <div className='images' id='res'>
                 <img src={glaures} alt=''/>
             </div>
 
-            <div className='images'>
+            <div className='images' id='kmk'>
                 <img src={kmkLand} alt=''/>
             </div>
 
-            <div className='images'>
+            <div className='images' id='res'>
                 <img src={kmkres} alt=''/>
             </div>
 
