@@ -129,3 +129,22 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
     word-break: break-all;
     width: 80%;
 }
+
+.technologies-pr{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.technologies-pr p{
+   
+    padding: .5em;
+    width: fit-content;
+    border-radius: 10px;
+    border: 1px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-image: linear-gradient(45deg, #6df2a4, #7e9fe3) 1;
+}

@@ -54,7 +54,7 @@ const ProjectPresentation = () => {
                                     <div>
                                         <MdScreenShare/>
                                     </div>
-                               <a href={el.link} target='_blank'>Deploy: {el.link}</a>
+                               <a href={el.link} target='_blank'>{el.link}</a>
                             </div>
                                 {
                                     el.client.clientName?
@@ -63,6 +63,14 @@ const ProjectPresentation = () => {
                             </div>  
                                 :null
                                 }
+
+                            <div className='technologies-pr'>
+                                {el.technologies.map((e)=>{
+                                    return(
+                                        <p>{e}</p>
+                                    )
+                                })}
+                            </div>
                                </div>
                                 </div>
                             </div>
