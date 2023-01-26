@@ -4,6 +4,7 @@ import Landing from './pages/landing/Landing'
 import {Routes, Route} from 'react-router-dom'
 import NavResponsive from './components/navbar/navresponsive/NavResponsive'
 import Projects from './pages/projects/Projects'
+import Signin from './pages/signin/Signin'
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Landing/>}/>
       <Route path='/projects' element={<Projects/>}/>
-
+      <Route path='/signin' element={<Signin/>}/>
     </Routes>
    </div>
   )

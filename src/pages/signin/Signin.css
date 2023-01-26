@@ -1,0 +1,65 @@
+.signin-cont{
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.box-sn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+   
+    width: 30em;
+    height: 35em;
+
+}
+
+.box-sn-container .inner-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    width: 80%;
+    height: 15em;
+
+}
+
+.inner-box input{
+    width: 80%;
+    padding: 1em;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.button-container-sn{
+
+    width: 80%;
+    
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-container-sn a{
+    min-width: 21%;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 200;
+}
