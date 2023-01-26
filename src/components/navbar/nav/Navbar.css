@@ -68,6 +68,7 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
     display: flex;
     color:#171717;
     position: absolute;
+    margin-left: 1em;
 
     
 }
@@ -77,15 +78,19 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
     align-items: center;
     position: absolute;
     margin-top: .5em;
-    margin-left: -5em;
+    margin-left: -10em;
     width: 30em;
     min-height: 10em;
-    border-radius: 10px;
     z-index: 2;
     background-color: #171717;
     display: flex;
     align-items: flex-start;
     padding: 2em;
+    
+    border-top: 1px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-image: linear-gradient(45deg, #6df2a4, #7e9fe3) 1;
      
 }
 

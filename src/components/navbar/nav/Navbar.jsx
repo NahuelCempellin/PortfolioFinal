@@ -16,7 +16,7 @@ const Navbar = () => {
 
         <div className='menu-box'>
             <div className='box-about-cont'>
-            <NavLink>About</NavLink>
+            <NavLink to={'/'}>About</NavLink>
             <BsFillTriangleFill className='triangle'/>
             <div className='box-about'>
               <p>About...</p>
