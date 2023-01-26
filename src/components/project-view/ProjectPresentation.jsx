@@ -31,12 +31,17 @@ const ProjectPresentation = () => {
                                 </div>
 
                                 <div className='down-card'>
+                                    {
+                                        el.tasks ?
                                     <div className='item-box-pr'>
                                         <div>
                                             <FaTasks/>
                                         </div>
+                                        
                                         <p>{el.tasks}</p>
                                     </div> 
+                                    : null
+                                    }
 
                                 <div className='item-box-pr'>
                                     <div>
@@ -51,14 +56,17 @@ const ProjectPresentation = () => {
                                     </div>
                                <a href={el.link} target='_blank'>Deploy: {el.link}</a>
                             </div>
-
+                                {
+                                    el.client.clientName?
                             <div className='item-box-pr'>
                                <p>Client: {el.client.clientName}</p>
                             </div>  
+                                :null
+                                }
                                </div>
                                 </div>
                             </div>
-                            <div className='box2'>Slider</div>
+                            <div className='box2'>Projects</div>
                         </div>)
                     })
                 }

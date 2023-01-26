@@ -35,11 +35,13 @@
 .project-box-all .box2{
     width: 40%;
     min-height: 60vh;
+    border-radius: 16px;
     
-    border: 1px solid white;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgb(109,242,164);
+background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 100%);
 }
 
 
@@ -60,6 +62,7 @@
     justify-content: center;
     flex-direction: column;
     width: 80%;
+    
 }
 
 .head .date{
