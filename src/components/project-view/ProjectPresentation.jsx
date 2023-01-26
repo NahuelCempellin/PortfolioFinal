@@ -50,12 +50,17 @@ const ProjectPresentation = () => {
                                <p>{el.text}</p>
                                 </div>  
 
+                                {
+                                    el.link ? 
                                 <div className='item-box-pr'>
                                     <div>
                                         <MdScreenShare/>
                                     </div>
                                <a href={el.link} target='_blank'>{el.link}</a>
                             </div>
+                            : null
+                                }
+
                                 {
                                     el.client.clientName?
                             <div className='item-box-pr'>
