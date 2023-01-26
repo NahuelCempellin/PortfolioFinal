@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react'
 import './project-page.css'
+import Footer from '../../components/footer/Footer'
 import {BiCodeAlt} from 'react-icons/bi'
 import credit from '../../assets/creditcard.jpeg'
 import dashboard from '../../assets/dashboard.jpeg'
@@ -11,6 +12,7 @@ import glaures from '../../assets/galures.jpeg'
 import kmkLand from '../../assets/kmkland.jpeg'
 import kmkres from '../../assets/kmkres.jpeg'
 import portfolio from '../../assets/portfolio.jpeg'
+import ProjectPresentation from '../../components/project-view/ProjectPresentation'
 
 
 
@@ -85,6 +87,14 @@ const Projects = () => {
             </div>
 
         </div>
+
+        <div className='presentation'>
+            <ProjectPresentation/>
+        </div>
+
+        <div className='footer-container-projects' id='Footer'>
+      <Footer/>
+    </div>
     </div>
   )
 }

@@ -59,7 +59,7 @@ const Navbar = () => {
             </div>
             <a href='#project'>Projects</a>
             <a href='#Footer' className='contacto'>Contact</a>
-            <NavLink>Cofee</NavLink>
+            <NavLink>Coffe</NavLink>
         </div>
 
         <div className='signin'>

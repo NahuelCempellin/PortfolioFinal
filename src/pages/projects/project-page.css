@@ -1,10 +1,11 @@
 .projects-page-container{
     width: 100%;
     min-height: 100vh;
-    
+   
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .project-title-box{
@@ -43,7 +44,7 @@
 
 .bakcground-images{
     /* z-index: -1; */
-    margin-top: 5em;
+    margin-top: -280em;
     background: #000000; 
 	
 	opacity: 0.3; 
@@ -95,4 +96,27 @@ grid-row-gap: 0px;
 
 #black{
     margin-top: 4em;
+}
+
+
+
+.footer-container-projects{
+    width: 100%;
+    margin-top: 50em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.presentation{
+    /* border: 1px solid white; */
+    margin-top: 10em;
+    width: 100%;
+    min-height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

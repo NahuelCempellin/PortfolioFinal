@@ -45,7 +45,7 @@ const NavResponsive = () => {
 
         <a className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><BiCoffeeTogo/></div>
-          <p>Cofee</p>
+          <p>Coffe</p>
         </a>
         </div>
 
