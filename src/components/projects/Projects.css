@@ -91,7 +91,7 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
   }
   
   .slides-container {
-    height:20em;
+    /* height:17em; */
     width: 100%;
     display: flex;
     overflow: scroll;
@@ -164,28 +164,36 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
   
   .slide {
     width: 100%;
-    height: 100%;
+    height: 17.5em;
     flex: 1 0 100%;
+    
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .slide img{
+
+    width: 100%;
   }
   
   .slide:nth-child(1) {
-    background: url(../../assets/kmkweb.jpeg);
+    /* background: url(../../assets/kmkweb.jpeg); */
     background-size: cover;
   }
   
   .slide:nth-child(2) {
-    background: url(../../assets/galuweb.jpeg);
+    /* background: url(../../assets/galuweb.jpeg); */
     background-size: cover;
   }
   
   .slide:nth-child(3) {
-    background: url(../../assets/coally.jpeg);
+    /* background: url(../../assets/coally.jpeg); */
     background-size: cover;
   }
   
-  .slide:nth-child(4) {
+  /* .slide:nth-child(4) {
     background-color: #da6f2b;
-  }
+  } */
 
 
   @media screen and (max-width:1100px ){

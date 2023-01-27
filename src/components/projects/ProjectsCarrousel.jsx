@@ -3,7 +3,7 @@ import './Projects.css'
 import { Link } from 'react-router-dom'
 
 
-const ProjectsCarrousel = () => {
+const ProjectsCarrousel = ({images}) => {
 
     useEffect(()=>{
         const slidesContainer = document.getElementById("slides-container");
@@ -33,9 +33,17 @@ prevButton.addEventListener("click", () => {
     &#8250;
   </button>
   <ul className="slides-container" id="slides-container">
-    <li className="slide"></li>
-    <li className="slide"></li>
-    <li className="slide"></li>
+    {
+      images.map((el , i) =>{
+        return(
+          <li className="slide" key={i}>
+            <img src={el} alt='image1'/>
+          </li>
+        )
+      })
+    }
+    {/* <li className="slide"><img src={images} alt='image2'/></li>
+    <li className="slide"><img src={images} alt='image3'/></li> */}
     {/* <li className="slide"></li> */}
   </ul>
 </section>

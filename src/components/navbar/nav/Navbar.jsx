@@ -36,7 +36,7 @@ const Navbar = () => {
                  Studies
               </a>
 
-              <a>
+              <a href='#project'>
                 <div className='circle-about-item'>
                  <CiSettings className='item-color'/>
                 </div>

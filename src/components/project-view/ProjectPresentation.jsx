@@ -5,6 +5,8 @@ import './project-view.css'
 import{FaTasks} from 'react-icons/fa'
 import {BsFillJournalBookmarkFill} from 'react-icons/bs'
 import {MdScreenShare} from 'react-icons/md'
+import NewCarrousel from '../newCarrousel/NewCarrousel'
+import ProjectsCarrousel from '../projects/ProjectsCarrousel'
 
 const ProjectPresentation = () => {
     const [data,setData]= useState([])
@@ -70,16 +72,18 @@ const ProjectPresentation = () => {
                                 }
 
                             <div className='technologies-pr'>
-                                {el.technologies.map((e)=>{
+                                {el.technologies.map((e,i)=>{
                                     return(
-                                        <p>{e}</p>
+                                        <p key={i}>{e}</p>
                                     )
                                 })}
                             </div>
                                </div>
                                 </div>
                             </div>
-                            <div className='box2'>Projects</div>
+                            <div className='box2'>
+                                <ProjectsCarrousel images={el.images}/>
+                            </div>
                         </div>)
                     })
                 }

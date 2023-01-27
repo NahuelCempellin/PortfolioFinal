@@ -4,9 +4,17 @@ import {BiCodeAlt} from 'react-icons/bi'
 import {BsArrowRight} from 'react-icons/bs'
 import ProjectsCarrousel from './ProjectsCarrousel'
 import { Link } from 'react-router-dom'
+import kmk from '../../assets/kmkland.jpeg'
+import galu from '../../assets/galulog.jpeg'
+import dashboard from '../../assets/dashboard.jpeg'
 
 
 const Projects = () => {
+
+  const arrImages=[kmk,galu,dashboard]
+
+
+
   return (
     <div className='projects-container' >
         <div className='title-container'>
@@ -25,7 +33,7 @@ const Projects = () => {
         </div>
 
         <div className='project-box'>
-            <ProjectsCarrousel/>
+            <ProjectsCarrousel images={arrImages}/>
         </div>
     </div>
   )

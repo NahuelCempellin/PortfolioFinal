@@ -1,7 +1,7 @@
 import kmk1 from '../../assets/kmkland.jpeg'
 import kmk2 from '../../assets/kmkcard.jpeg'
 import kmk3 from '../../assets/kmkres.jpeg'
-import kmk4 from '../../assets/kmkweb.jpeg'
+// import kmk4 from '../../assets/kmkweb.jpeg'
 
 import coall1 from '../../assets/coally.jpeg'
 
@@ -26,12 +26,7 @@ export const Data=[
     {
         name:'Kenmukan web',
         projectType:'Freelance',
-        images:{
-            image1:kmk1,
-            image2:kmk2,
-            image3:kmk3,
-            image4:kmk4,
-        },
+        images:[kmk1,kmk2,kmk3],
         tasks:'create page layout, perform frontend logic. Deploy',
         technologies:['Next.js','Styled.jsx','Javascript'],
         date:'08/20/2022',
@@ -45,12 +40,7 @@ export const Data=[
     {
         name:'Collaboration in Coally',
         projectType:'As contractor',
-        images:{
-            image1:coall1,
-            image2:'',
-            image3:'',
-            image4:'',
-        },
+        images:[coall1],
         tasks:'Frontend development based on a figma design. Bug fixes.',
         technologies:['React','Redux','Css','Material Ui', 'Javascript'],
         date:'11-03-2022',
@@ -64,12 +54,7 @@ export const Data=[
     {
         name:'Galu pet hotel',
         projectType:'Freelance',
-        images:{
-            image1:galu1,
-            image2:galu2,
-            image3:galu3,
-            image4:galu4,
-        },
+        images:[galu1,galu2,galu3,galu4],
         tasks:'Frontend layout design - programming logic',
         technologies:['React','Vite','Tailwind-css','Redux','Javascript'],
         date:'12-09-2022',
@@ -84,12 +69,7 @@ export const Data=[
     {
         name:'Credit card generator',
         projectType:'Practice',
-        images:{
-            image1:creditCard,
-            image2:'',
-            image3:'',
-            image4:'',
-        },
+        images:[creditCard],
         tasks:'Frontend development practice.',
         technologies:['React','Redux','Styled-components', 'Javascript'],
         date:'08-08-2023',
@@ -103,12 +83,7 @@ export const Data=[
     {
         name:'Admin dashboard',
         projectType:'Practice',
-        images:{
-            image1:dash1,
-            image2:dash2,
-            image3:'',
-            image4:'',
-        },
+        images:[dash1,dash2],
         tasks:'',
         technologies:['React','Redux','Styled-components', 'Javascript'],
         date:'08-09-2022',
@@ -123,12 +98,7 @@ export const Data=[
     {
         name:'First portfolio',
         projectType:'Practice',
-        images:{
-            image1:portfolio,
-            image2:'',
-            image3:'',
-            image4:'',
-        },
+        images:[portfolio],
         tasks:'Frontend development',
         technologies:['Next.js','Styled.jsx', 'Javascript'],
         date:'07-01-2022',
