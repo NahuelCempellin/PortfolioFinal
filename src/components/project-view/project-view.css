@@ -150,3 +150,15 @@ background: linear-gradient(90deg, rgba(109,242,164,1) 0%, rgba(126,159,226,1) 1
 }
 
 
+@media screen and (max-width:500px ){
+
+    .item-box-pr{
+        
+
+        /* display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column; */
+    }
+
+}
