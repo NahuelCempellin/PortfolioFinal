@@ -14,7 +14,7 @@ const Projects = () => {
             <BiCodeAlt className='code-icon'/>
             <a>Profesional & personal projects.</a>
             </div>
-            {/* <a>Projects</a> */}
+            
 
             <h2>"Love what you do, do what you love."</h2>
 
