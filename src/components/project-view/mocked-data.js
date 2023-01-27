@@ -18,7 +18,8 @@ import dash1 from '../../assets/dashl.jpeg'
 import dash2 from '../../assets/dashboard.jpeg'
 
 import portfolio from '../../assets/portfolio.jpeg'
-
+import portfolio2 from '../../assets/Portfolio2.jpeg'
+import portfolio3 from '../../assets/Portfolio3.jpeg'
 
 
 
@@ -98,7 +99,7 @@ export const Data=[
     {
         name:'First portfolio',
         projectType:'Practice',
-        images:[portfolio],
+        images:[portfolio,portfolio2,portfolio3],
         tasks:'Frontend development',
         technologies:['Next.js','Styled.jsx', 'Javascript'],
         date:'07-01-2022',
