@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+import React from 'react'
 import './project-page.css'
 import Footer from '../../components/footer/Footer'
 import {BiCodeAlt} from 'react-icons/bi'

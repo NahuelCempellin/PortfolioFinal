@@ -5,7 +5,6 @@ import './project-view.css'
 import{FaTasks} from 'react-icons/fa'
 import {BsFillJournalBookmarkFill} from 'react-icons/bs'
 import {MdScreenShare} from 'react-icons/md'
-import NewCarrousel from '../newCarrousel/NewCarrousel'
 import ProjectsCarrousel from '../projects/ProjectsCarrousel'
 
 const ProjectPresentation = () => {
