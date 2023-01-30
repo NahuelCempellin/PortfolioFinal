@@ -32,10 +32,10 @@ const NavResponsive = () => {
         </a>
 
 
-        <a href='#project' className='item-container' onClick={()=>setPopOn(false)}>
+        <Link to={'/projects'} className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><CiSettings/></div>
           <p>Projects</p>
-        </a>
+        </Link>
 
 
         <a href='#Footer'className='item-container' onClick={()=>setPopOn(false)}>
