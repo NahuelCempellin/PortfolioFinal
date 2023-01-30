@@ -245,4 +245,11 @@
     .boxes{
         width: 80%;
     }
+
+    .logo-container h2{
+        font-size: 2em;
+    }
+    .logo-vsc{
+        font-size: 2em;
+    }
 }
