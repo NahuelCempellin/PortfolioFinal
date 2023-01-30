@@ -102,7 +102,7 @@ grid-row-gap: 0px;
 
 .footer-container-projects{
     width: 100%;
-    margin-top: 50em;
+    margin-top: 30em;
 
     display: flex;
     align-items: center;
@@ -123,6 +123,17 @@ grid-row-gap: 0px;
 
 .technologies-pr p{
     margin-right: 1em;
+}
+
+
+.tech-project{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 20em;
 }
 
 

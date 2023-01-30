@@ -44,10 +44,10 @@ const NavResponsive = () => {
         </a>
 
 
-        <a className='item-container' onClick={()=>setPopOn(false)}>
+        {/* <a className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><BiCoffeeTogo/></div>
           <p>Coffe</p>
-        </a>
+        </a> */}
         </div>
 
         <div className='final-menu'>

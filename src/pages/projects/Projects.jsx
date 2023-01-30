@@ -5,6 +5,7 @@ import {BiCodeAlt} from 'react-icons/bi'
 
 import ProjectPresentation from '../../components/project-view/ProjectPresentation'
 import ImageComponent from './ImageComponent'
+import Tech from '../../components/tecnologies/Tech'
 
 
 
@@ -31,6 +32,12 @@ const Projects = () => {
         <div className='presentation'>
             <ProjectPresentation/>
         </div>
+
+
+        <div className='tech-project'>
+        <Tech/>
+    </div>
+
 
         <div className='footer-container-projects' id='Footer'>
       <Footer/>
