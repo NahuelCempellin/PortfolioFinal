@@ -5,7 +5,7 @@ import {BsArrowRight} from 'react-icons/bs'
 import ProjectsCarrousel from './ProjectsCarrousel'
 import { Link } from 'react-router-dom'
 import kmk from '../../assets/kmkland.jpeg'
-import galu from '../../assets/galulog.jpeg'
+import galu from '../../assets/dashl.jpeg'
 import dashboard from '../../assets/dashboard.jpeg'
 
 
