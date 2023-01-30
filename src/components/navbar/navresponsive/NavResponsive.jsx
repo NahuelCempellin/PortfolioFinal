@@ -7,6 +7,7 @@ import{BiCoffeeTogo} from 'react-icons/bi'
 import {MdContactSupport} from 'react-icons/md'
 import {CiSettings} from 'react-icons/ci'
 import '../nav/Navbar.css'
+import { Link } from 'react-router-dom'
 
 const NavResponsive = () => {
   const[popOn, setPopOn]=useState(false)
@@ -51,7 +52,7 @@ const NavResponsive = () => {
 
         <div className='final-menu'>
           <a href='#Footer' onClick={()=>setPopOn(false)}>Contact me</a>
-          <a>Sign in</a>
+          <Link to={'/signin'} onClick={()=>setPopOn(false)}>Sign in</Link>
         </div>
         </div>
     </div>

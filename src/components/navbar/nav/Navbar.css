@@ -166,7 +166,7 @@ font-size: 1.2em;
     border: none;
     color: white;
     font-size: 1.3em;
-    margin-top: 2.5em;
+    /* margin-top: 2.5em; */
 }
 
 .NavContainer-responsive .burguer-button{
@@ -194,10 +194,10 @@ font-size: 1.2em;
     width: 70%;
     height: 95vh;
     z-index: 2;
-    margin-top: 31em;
+    margin-top: 35em;
     margin-left: 26%;
     /* border-radius: 15px; */
-
+    /* border: 1px solid white; */
 
     display: flex;
     align-items:flex-start;
@@ -210,7 +210,7 @@ font-size: 1.2em;
 .menu-items-responsive{
     width: 80%;
     height: 30em;
-    
+   
     
     display: flex;
     align-items: flex-start;
@@ -233,7 +233,7 @@ font-size: 1.2em;
 .close{
     font-size: 1.5em;
     margin-left: -.5em;
-    margin-top: -10em;
+    /* margin-top: -5em; */
 }
 
 
