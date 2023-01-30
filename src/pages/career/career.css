@@ -123,6 +123,7 @@
 
 .box-career-inner{
     border-top: 1px solid white;
+    padding: 1em;
 }
 
 .sub-title{
@@ -243,7 +244,7 @@
     }
 
     .boxes{
-        width: 80%;
+        width: 90%;
     }
 
     .logo-container h2{
