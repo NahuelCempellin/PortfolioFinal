@@ -15,7 +15,7 @@ const Landing = () => {
     <Carrousel/>
     <p className='text'>Full Stack developer, and React.js Tutor in Coderhouse. Graduate of the bootcamp Soy Henry, with one year of experience as a frontend developer.</p>
     <div className='button-container'>
-      <button className='more'>See more <BsArrowRight className='arrow-one'/></button>
+      <a href='#studies' className='more'>See more <BsArrowRight className='arrow-one'/></a>
       <a className='second' href='#Footer'>Contact me <BsArrowRight className='arrow-two'/></a>
     </div>
     </div>

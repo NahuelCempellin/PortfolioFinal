@@ -76,6 +76,8 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
 
 .more{
     background-color: #6df2a4;
+    color: black;
+    text-decoration: none;
 }
 .more:hover .arrow-one{
     margin-left: 1em;
