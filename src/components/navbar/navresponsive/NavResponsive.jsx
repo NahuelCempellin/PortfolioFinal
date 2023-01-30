@@ -26,10 +26,10 @@ const NavResponsive = () => {
 
         <div className='menu-items-responsive'>
 
-        <a className='item-container' onClick={()=>setPopOn(false)}>
+        <Link to={'/'} className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><BsFillJournalBookmarkFill/></div>
           <p>About</p>
-        </a>
+        </Link>
 
           <Link to={'/career'} className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><BiCoffeeTogo/></div>
