@@ -73,7 +73,7 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
     
 }
 
-.box-about-cont:hover .box-about{
+/* .box-about-cont:hover .box-about{
     display: flex;
     align-items: center;
     position: absolute;
@@ -92,7 +92,7 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
     border-bottom-right-radius: 10px;
     border-image: linear-gradient(45deg, #6df2a4, #7e9fe3) 1;
      
-}
+} */
 
 .menu-about-container{
     margin-top: 3em;
