@@ -31,6 +31,11 @@ const NavResponsive = () => {
           <p>About</p>
         </a>
 
+          {/* <a className='item-container' onClick={()=>setPopOn(false)}>
+          <div id='circle'><BiCoffeeTogo/></div>
+          <p>Coffe</p>
+        </a> */}
+
 
         <Link to={'/projects'} className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><CiSettings/></div>
@@ -44,10 +49,7 @@ const NavResponsive = () => {
         </a>
 
 
-        {/* <a className='item-container' onClick={()=>setPopOn(false)}>
-          <div id='circle'><BiCoffeeTogo/></div>
-          <p>Coffe</p>
-        </a> */}
+      
         </div>
 
         <div className='final-menu'>

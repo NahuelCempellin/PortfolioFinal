@@ -49,17 +49,15 @@ const Navbar = () => {
                 </div>
                  Links
               </a>
-
-
-
-
-              </div>
-              
+              </div>          
             </div>
             </div>
+
+            <NavLink to={'/career'}>Career</NavLink>
+
             <NavLink to={'/projects'}>Projects</NavLink>
             <a href='#Footer' className='contacto'>Contact</a>
-            {/* <NavLink>Coffe</NavLink> */}
+            
         </div>
 
         <div className='signin'>

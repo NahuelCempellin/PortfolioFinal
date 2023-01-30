@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <div className='projects-page-container'>
-        <div className='project-title-box'>
+        <div className='project-title-box' id='start'>
             <BiCodeAlt className='code-icon-projects'/>
             <div>
             <h2>Nahuel.js</h2>

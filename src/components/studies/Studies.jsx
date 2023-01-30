@@ -2,6 +2,7 @@ import React from 'react'
 import './Studies.css'
 import Diploma from '../../assets/fullstack.jpeg'
 import {BsArrowRight,BsJournalBookmarkFill} from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const Studies = () => {
   return (
@@ -27,7 +28,7 @@ const Studies = () => {
 
             <p>In a pandemic, like many people, I have had to change my profession. After thinking about it a lot, I decided to go back to studying programming, which was the first step to change my life.</p>
 
-            <button className='second' id='button-renegade-studies'>See more<BsArrowRight className='arrow-two'/></button>
+            <Link to={'/career'} className='second' id='button-renegade-studies'>See more<BsArrowRight className='arrow-two'/></Link>
 
         </div>
 
