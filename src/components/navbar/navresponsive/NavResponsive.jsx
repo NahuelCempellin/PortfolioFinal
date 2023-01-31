@@ -56,6 +56,8 @@ const NavResponsive = () => {
           <a href='#Footer' onClick={()=>setPopOn(false)}>Contact me</a>
           <Link to={'/signin'} onClick={()=>setPopOn(false)}>Sign in</Link>
         </div>
+
+        
         </div>
     </div>
   )
