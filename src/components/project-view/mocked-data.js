@@ -31,7 +31,7 @@ export const Data=[
         tasks:'create page layout, perform frontend logic. Deploy',
         technologies:['Next.js','Styled.jsx','Javascript'],
         date:'08/20/2022',
-        link:'https://kenmukan.vercel.app/',
+        link:'https://kenmukan-kyokai.vercel.app',
         text:'It is a project still in development, where I am developing a web page for my martial arts dojo, with the idea of ​​attracting more students to the institution and spreading the word about the art of Japanese fencing.',
         client:{
             clientName:'Kenmukan kyokai',
