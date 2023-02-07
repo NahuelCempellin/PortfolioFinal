@@ -73,7 +73,7 @@ export const Data=[
         images:[creditCard],
         tasks:'Frontend development practice.',
         technologies:['React','Redux','Styled-components', 'Javascript'],
-        date:'08-08-2023',
+        date:'08-08-2022',
         link:'https://credit-card-smoky.vercel.app',
         text:'Practice of frontend mentor.',
         client:{

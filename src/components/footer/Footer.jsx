@@ -52,11 +52,6 @@ const Footer = () => {
   };
 
 
-//   const setMessage=(e)=>{
-//     e.preventDefault()
-    
-// }
-
 
 
   return (
