@@ -1,114 +1,129 @@
-import kmk1 from '../../assets/kmkland.jpeg'
-import kmk2 from '../../assets/kmkcard.jpeg'
-import kmk3 from '../../assets/kmkres.jpeg'
+import kmk1 from "../../assets/kmkland.jpeg";
+import kmk2 from "../../assets/kmkcard.jpeg";
+import kmk3 from "../../assets/kmkres.jpeg";
 // import kmk4 from '../../assets/kmkweb.jpeg'
 
-import coall1 from '../../assets/coally.jpeg'
+import coall1 from "../../assets/coally.jpeg";
 
+import galu1 from "../../assets/galuhome.jpeg";
+import galu2 from "../../assets/galulight.jpeg";
+import galu3 from "../../assets/galulog.jpeg";
+import galu4 from "../../assets/galures.jpeg";
 
-import galu1 from '../../assets/galuhome.jpeg'
-import galu2 from '../../assets/galulight.jpeg'
-import galu3 from '../../assets/galulog.jpeg'
-import galu4 from '../../assets/galures.jpeg'
+import creditCard from "../../assets/creditcard.jpeg";
 
+import dash1 from "../../assets/dashl.jpeg";
+import dash2 from "../../assets/dashboard.jpeg";
 
-import creditCard from '../../assets/creditcard.jpeg'
+import portfolio from "../../assets/portfolio.jpeg";
+import portfolio2 from "../../assets/Portfolio2.jpeg";
+import portfolio3 from "../../assets/Portfolio3.jpeg";
 
-import dash1 from '../../assets/dashl.jpeg'
-import dash2 from '../../assets/dashboard.jpeg'
+import Omas from "../../assets/Omas.jpeg";
 
-import portfolio from '../../assets/portfolio.jpeg'
-import portfolio2 from '../../assets/Portfolio2.jpeg'
-import portfolio3 from '../../assets/Portfolio3.jpeg'
-
-
-
-export const Data=[
-    {
-        name:'Kenmukan web',
-        projectType:'Freelance',
-        images:[kmk1,kmk2,kmk3],
-        tasks:'create page layout, perform frontend logic. Deploy',
-        technologies:['Next.js','Styled.jsx','Javascript'],
-        date:'08/20/2022',
-        link:'https://kenmukan-kyokai.vercel.app',
-        text:'It is a project still in development, where I am developing a web page for my martial arts dojo, with the idea of ​​attracting more students to the institution and spreading the word about the art of Japanese fencing.',
-        client:{
-            clientName:'Kenmukan kyokai',
-            clientTestimony:'',
-        }
+export const Data = [
+  {
+    name: "Project OMAS s.p.a",
+    projectType: "Freelance",
+    images: [Omas],
+    tasks:
+      "Defined the aesthetic of the page, developed React based on the Figma design, and determined the routing of the application.",
+    technologies: ["React", "Redux Toolkit", "MUI", "Javascript"],
+    date: "20/2/2023",
+    link: "",
+    text: "At a startup, I was tasked with creating a Figma that defined the styles of the page according to the client's requests. Then, I developed the page from scratch using React. As part of my responsibilities, I worked on developing the frontend, creating custom hooks, and componentizing to improve the application's performance.",
+    client: {
+      clientName: "OMAS s.p.a",
+      clientTestimony: "",
     },
-    {
-        name:'Collaboration in Coally',
-        projectType:'As contractor',
-        images:[coall1],
-        tasks:'Frontend development based on a figma design. Bug fixes.',
-        technologies:['React','Redux','Css','Material Ui', 'Javascript'],
-        date:'11-03-2022',
-        link:'https://coally.com/home-coally',
-        text:'Project in which I collaborate. My designated tasks were to develop programming logic, frontend development from a figma design, and bug fixes reported by the QA area.',
-        client:{
-            clientName:'Coally',
-            clientTestimony:'',
-        }
+  },
+  {
+    name: "Kenmukan web",
+    projectType: "Freelance",
+    images: [kmk1, kmk2, kmk3],
+    tasks:
+      "Created page layout and implemented frontend logic. Deployed the application.",
+    technologies: ["Next.js", "Styled.jsx", "Javascript"],
+    date: "08/20/2022",
+    link: "https://kenmukan-kyokai.vercel.app",
+    text: "This is an ongoing project where I am creating a website for my martial arts dojo. The objective is to attract more students to the institution and promote the art of Japanese fencing.",
+    client: {
+      clientName: "Kenmukan kyokai",
+      clientTestimony: "",
     },
-    {
-        name:'Galu pet hotel',
-        projectType:'Freelance',
-        images:[galu1,galu2,galu3,galu4],
-        tasks:'Frontend layout design - programming logic',
-        technologies:['React','Vite','Tailwind-css','Redux','Javascript'],
-        date:'12-09-2022',
-        link:'',
-        text:'Project in development, in which I made the design of the page and the programming logic.',
-        client:{
-            clientName:'Galu pet hotel',
-            clientTestimony:'',
-            
-        }
+  },
+  {
+    name: "Collaboration in Coally",
+    projectType: "As contractor",
+    images: [coall1],
+    tasks:
+      "Implemented frontend development based on a Figma design and resolved any encountered bugs.",
+    technologies: ["React", "Redux", "Css", "Material Ui", "Javascript"],
+    date: "11-03-2022",
+    link: "https://coally.com/home-coally",
+    text: "Project in which I collaborate. My designated tasks were to develop programming logic, frontend development from a figma design, and bug fixes reported by the QA area.",
+    client: {
+      clientName: "Coally",
+      clientTestimony: "",
     },
-    {
-        name:'Credit card generator',
-        projectType:'Practice',
-        images:[creditCard],
-        tasks:'Frontend development practice.',
-        technologies:['React','Redux','Styled-components', 'Javascript'],
-        date:'08-08-2022',
-        link:'https://credit-card-smoky.vercel.app',
-        text:'Practice of frontend mentor.',
-        client:{
-            clientName:'John Doe',
-            clientTestimony:'',
-        }
+  },
+  {
+    name: "Galu pet hotel",
+    projectType: "Freelance",
+    images: [galu1, galu2, galu3, galu4],
+    tasks:
+      "Defined the aesthetic of the page, developed React based on the Figma design, and determined the routing of the application.",
+    technologies: ["React", "Vite", "Tailwind-css", "Redux", "Javascript"],
+    date: "12-09-2022",
+    link: "",
+    text: "At a startup, I was tasked with creating a Figma that defined the styles of the page according to the client's requests. Then, I developed the page from scratch using React. As part of my responsibilities, I worked on developing the frontend, creating custom hooks, and componentizing to improve the application's performance.",
+    client: {
+      clientName: "Galu pet hotel",
+      clientTestimony: "",
     },
-    {
-        name:'Admin dashboard',
-        projectType:'Practice',
-        images:[dash1,dash2],
-        tasks:'',
-        technologies:['React','Redux','Styled-components', 'Javascript'],
-        date:'08-09-2022',
-        link:'https://switchermaster.vercel.app',
-        text:'Frontend mentor practice',
-        client:{
-            clientName:'Practice',
-            clientTestimony:'',
-            date:'',
-        }
+  },
+  {
+    name: "Credit card generator",
+    projectType: "Practice",
+    images: [creditCard],
+    tasks: "Frontend development practice.",
+    technologies: ["React", "Redux", "Styled-components", "Javascript"],
+    date: "08-08-2022",
+    link: "https://credit-card-smoky.vercel.app",
+    text: "Practice of frontend mentor.",
+    client: {
+      clientName: "John Doe",
+      clientTestimony: "",
     },
-    {
-        name:'First portfolio',
-        projectType:'Practice',
-        images:[portfolio,portfolio2,portfolio3],
-        tasks:'Frontend development',
-        technologies:['Next.js','Styled.jsx', 'Javascript'],
-        date:'07-01-2022',
-        link:'https://portfolio-mu-lovat-51.vercel.app',
-        text:'My first portfolio developed after ending my studies',
-        client:{
-            clientName:'',
-            clientTestimony:'',
-            date:'',
-        }
+  },
+  {
+    name: "Admin dashboard",
+    projectType: "Practice",
+    images: [dash1, dash2],
+    tasks: "",
+    technologies: ["React", "Redux", "Styled-components", "Javascript"],
+    date: "08-09-2022",
+    link: "https://switchermaster.vercel.app",
+    text: "Frontend mentor practice",
+    client: {
+      clientName: "Practice",
+      clientTestimony: "",
+      date: "",
     },
-]
+  },
+  {
+    name: "First portfolio",
+    projectType: "Practice",
+    images: [portfolio, portfolio2, portfolio3],
+    tasks: "Frontend development",
+    technologies: ["Next.js", "Styled.jsx", "Javascript"],
+    date: "07-01-2022",
+    link: "https://portfolio-mu-lovat-51.vercel.app",
+    text: "My first portfolio developed after ending my studies",
+    client: {
+      clientName: "",
+      clientTestimony: "",
+      date: "",
+    },
+  },
+];
