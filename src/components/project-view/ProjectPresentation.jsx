@@ -6,6 +6,7 @@ import{FaTasks} from 'react-icons/fa'
 import {BsFillJournalBookmarkFill} from 'react-icons/bs'
 import {MdScreenShare} from 'react-icons/md'
 import ProjectsCarrousel from '../projects/ProjectsCarrousel'
+import Carousel from '../carousel/Carrusel2/Carrusel2'
 
 const ProjectPresentation = () => {
     const [data,setData]= useState([])
@@ -81,7 +82,7 @@ const ProjectPresentation = () => {
                                 </div>
                             </div>
                             <div className='box2'>
-                                <ProjectsCarrousel images={el.images}/>
+                                <Carousel images={el.images}/>
                             </div>
                         </div>)
                     })

@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 import kmk from "../../assets/kmkland.jpeg";
 import galu from "../../assets/dashl.jpeg";
 import dashboard from "../../assets/dashboard.jpeg";
+import Carousel from "../carousel/Carrusel2/Carrusel2";
 
 const Projects = () => {
   const arrImages = [kmk, galu, dashboard];
@@ -34,7 +35,8 @@ const Projects = () => {
       </div>
 
       <div className="project-box">
-        <ProjectsCarrousel images={arrImages} />
+        <Carousel images={arrImages}/>
+        {/* <ProjectsCarrousel images={arrImages} /> */}
       </div>
     </div>
   );
