@@ -6,6 +6,7 @@ import NavResponsive from './components/navbar/navresponsive/NavResponsive'
 import Projects from './pages/projects/Projects'
 import Signin from './pages/signin/Signin'
 import Career from './pages/career/Career-page'
+import Register from './pages/register/Register'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Route path='/' element={<Landing/>}/>
       <Route path='/projects' element={<Projects/>}/>
       <Route path='/signin' element={<Signin/>}/>
+      <Route path='/register' element={<Register/>}/>
       <Route path='/career' element={<Career/>}/>
 
     </Routes>

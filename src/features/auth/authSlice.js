@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 import {createUserWithEmailAndPassword , signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup, signOut} from 'firebase/auth'
-
+import { auth } from "../../server/firebase";
 
 export const authSlice = createSlice({
   name: "auth",
@@ -11,8 +11,10 @@ export const authSlice = createSlice({
     },
     logIn: (state, action)=>{
       login(action.payload)
+      
     },
     loged : (state,action) =>{
+      
       state.push(action.payload)
     }
     
@@ -26,11 +28,16 @@ export async function register ({email,password}){
    console.log(response)
 }
 
-export async function login ({email,password}){
- const response = await signInWithEmailAndPassword(auth ,email,password)
- dispatch(loged(response))
- console.log(response)
+
+
+
+
+export const login = async({email, password})=>{
+  const response = await signInWithEmailAndPassword(auth,email,password)
+  
+
 }
+ 
 
 
 
@@ -47,5 +54,5 @@ export const logout = async()=>{
 
 
 
-export const { authentication, logIn} = authSlice.actions;
+export const { authentication, logIn, loged} = authSlice.actions;
 export default authSlice.reducer;
