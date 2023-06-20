@@ -30,7 +30,28 @@ import Remitoacc from '../../assets/Remito-acc.jpeg'
 import Remitoddt from '../../assets/Remito-ddt.jpeg'
 import RemitoFattura from '../../assets/Remito-fatturazione.jpeg'
 
+import LandingAntonucci from '../../assets/antonucci-landing.jpeg'
+import HorarioAntonucci from '../../assets/antonucci-horarios.jpeg'
+import CardsAntonucci from '../../assets/antonucci-cards.jpeg'
+import DetailAntonucci from '../../assets/antonucci-detail.jpeg'
+
+
 export const Data = [
+  {
+    name: "Instituto Elisabeth Antonucci",
+    projectType: "Freelance",
+    images: [LandingAntonucci, HorarioAntonucci, CardsAntonucci,DetailAntonucci],
+    tasks:
+      "Defined the aesthetic of the page, developed React based on the Figma design, and determined the routing of the application.",
+    technologies: ["React", "Redux Toolkit", "TailwindCss", "Javascript"],
+    date: "03/4/2023",
+    link: "https://instituto-antonucci.vercel.app/",
+    text: "Website designed for the Elisabeth Antonucci Dance Institute.My tasks consisted of creating a website following the institute's aesthetic. We created a landing page, a schedule page, and a section for each activity.Once the design was completed in Figma, we translated it into custom code tailored to the client's needs.",
+    client: {
+      clientName: "Instituto Antonucci",
+      clientTestimony: "",
+    },
+  },
   {
     name: "Project OMAS Remitos",
     projectType: "Freelance",
