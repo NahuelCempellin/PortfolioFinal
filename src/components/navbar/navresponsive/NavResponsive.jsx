@@ -43,10 +43,10 @@ const NavResponsive = () => {
         </Link>
 
 
-        <a href='#Footer'className='item-container' onClick={()=>setPopOn(false)}>
+        {/* <a href='#Footer'className='item-container' onClick={()=>setPopOn(false)}>
           <div id='circle'><MdContactSupport/></div>
           <p>Contact</p>
-        </a>
+        </a> */}
 
 
       

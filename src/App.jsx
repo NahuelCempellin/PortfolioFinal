@@ -13,7 +13,7 @@ function App() {
 
   return (
    <div className='container'>
-    <div>
+    <div id='Nav-container-2'>
     <Navbar/>
     <NavResponsive/>
     </div>

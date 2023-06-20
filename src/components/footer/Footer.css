@@ -4,7 +4,7 @@ border-top: 1px solid #938f8f6b;
 width: 90%;
 display: flex;
 align-items: center;
-justify-content: space-around;
+justify-content: flex-start;
 height: 100%;
 
 

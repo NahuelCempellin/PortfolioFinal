@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink to={'/career'}>Career</NavLink>
 
             <NavLink to={'/projects'}>Projects</NavLink>
-            <a href='#Footer' className='contacto'>Contact</a>
+            {/* <a href='#Footer' className='contacto'>Contact</a> */}
             
         </div>
 
