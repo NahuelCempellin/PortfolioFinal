@@ -77,16 +77,10 @@ const Footer = () => {
             </a>
           </div>
         </div>
+       
+     <p>Developed with 💗 by Nahuel Cempellin</p>
       </div>
 
-      <form className='message-box' onSubmit={sendEmail} ref={form}>
-        <p>Send a message</p>
-          <input value={mess.name} type="text" name="user_name" placeholder='Name'  onChange={(e)=>setMess({...mess, name: e.target.value})}/>
-          <input value={mess.email} type="email" name="user_email" placeholder='Email' onChange={(e)=>setMess({...mess, email: e.target.value})} />
-          <input value={mess.subject} type="text" name="asunto" placeholder='Subject' className="asunto"  onChange={(e)=>setMess({...mess, subject: e.target.value})}/>
-        <textarea value={mess.message}  name="message" placeholder='Message' onChange={(e)=>setMess({...mess, message: e.target.value})}/> 
-        <button type="submit" value="Send">Send <BsArrowRight className='arrow-one'/></button>
-      </form>
     </div>
   )
 }

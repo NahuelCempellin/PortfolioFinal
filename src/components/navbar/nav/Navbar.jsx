@@ -17,7 +17,7 @@ const Navbar = () => {
       <div className="menu-box">
         <div className="box-about-cont">
           <NavLink to={"/"}>About</NavLink>
-          <BsFillTriangleFill className="triangle" />
+          {/* <BsFillTriangleFill className="triangle" /> */}
           <div className="box-about">
             <p>About...</p>
             <div className="menu-about-container">
@@ -55,9 +55,9 @@ const Navbar = () => {
         <NavLink to={"/career"}>Career</NavLink>
 
         <NavLink to={"/projects"}>Projects</NavLink>
-        <a href="#Footer" className="contacto">
+        {/* <a href="#Footer" className="contacto">
           Contact
-        </a>
+        </a> */}
       </div>
 
       <div className="signin">

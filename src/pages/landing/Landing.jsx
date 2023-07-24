@@ -9,7 +9,7 @@ import Studies from "../../components/studies/Studies";
 
 const Landing = () => {
   return (
-    <div>
+    <div className="landing-container">
       <div className="titleContainer">
         <div className="title">Hi, I'm Nahuel Cempellin!</div>
         <Carrousel />

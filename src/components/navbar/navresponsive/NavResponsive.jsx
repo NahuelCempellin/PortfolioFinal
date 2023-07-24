@@ -58,16 +58,32 @@ const NavResponsive = () => {
             <p>Projects</p>
           </Link>
 
-          <a
-            href="#Footer"
+          <Link
+            to={"/career"}
             className="item-container"
             onClick={() => setPopOn(false)}
           >
             <div id="circle">
-              <MdContactSupport />
+              <BiCoffeeTogo />
             </div>
-            <p>Contact</p>
-          </a>
+            <p>Career</p>
+          </Link>
+
+          <Link
+            to={"/projects"}
+            className="item-container"
+            onClick={() => setPopOn(false)}
+          >
+            <div id="circle">
+              <CiSettings />
+            </div>
+            <p>Projects</p>
+          </Link>
+
+          {/* <a href='#Footer'className='item-container' onClick={()=>setPopOn(false)}>
+          <div id='circle'><MdContactSupport/></div>
+          <p>Contact</p>
+        </a> */}
         </div>
 
         <div className="final-menu">

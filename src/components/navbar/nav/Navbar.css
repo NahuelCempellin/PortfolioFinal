@@ -7,6 +7,14 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
+
+    background: rgb(0 0 0 / 75%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    z-index: 1;
+    position: fixed;
 }
 
 .contacto:hover{
@@ -72,6 +80,8 @@ background: linear-gradient(to right, #9E9D9D 0%, #FFFFFF 100%);
 
     
 }
+
+
 
 /* .box-about-cont:hover .box-about{
     display: flex;
@@ -144,9 +154,16 @@ font-size: 1.2em;
         display: none;
     }
 
+    #Nav-container-2{
+    
+        align-self: flex-end;
+    }
+
 .NavContainer-responsive{
     display: flex;
     align-items: center;
+    
+   
     justify-content: space-between;
     /* flex-direction: column; */
     font-weight: 200;
@@ -191,13 +208,13 @@ font-size: 1.2em;
 .popup-burguer-menu{
     position: absolute;
     background-color: #171717;
-    width: 70%;
+    width: 70vw;
     height: 95vh;
     z-index: 2;
-    margin-top: 35em;
-    margin-left: 26%;
+    margin-top: 40em;
+    margin-left: -25%;
     /* border-radius: 15px; */
-    /* border: 1px solid white; */
+   
 
     display: flex;
     align-items:flex-start;

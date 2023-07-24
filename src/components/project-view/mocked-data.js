@@ -19,18 +19,63 @@ import portfolio from "../../assets/portfolio.jpeg";
 import portfolio2 from "../../assets/Portfolio2.jpeg";
 import portfolio3 from "../../assets/Portfolio3.jpeg";
 
-import Omas from "../../assets/Omas.jpeg";
+import Omas from "../../assets/Omas-Cards.jpeg";
+import Omasdnd from "../../assets/Omas-dnd.jpeg"
+import OmasDash from "../../assets/Omas-Dash.jpeg"
+import OmasLogin from "../../assets/Omas-login.jpeg"
+
+import RemitoLogin from '../../assets/Remito-login.jpeg'
+import RemitoOda from '../../assets/Remito-oda.jpeg'
+import Remitoacc from '../../assets/Remito-acc.jpeg'
+import Remitoddt from '../../assets/Remito-ddt.jpeg'
+import RemitoFattura from '../../assets/Remito-fatturazione.jpeg'
+
+import LandingAntonucci from '../../assets/antonucci-landing.jpeg'
+import HorarioAntonucci from '../../assets/antonucci-horarios.jpeg'
+import CardsAntonucci from '../../assets/antonucci-cards.jpeg'
+import DetailAntonucci from '../../assets/antonucci-detail.jpeg'
+
 
 export const Data = [
   {
+    name: "Instituto Elisabeth Antonucci",
+    projectType: "Freelance",
+    images: [LandingAntonucci, HorarioAntonucci, CardsAntonucci,DetailAntonucci],
+    tasks:
+      "Defined the aesthetic of the page, developed React based on the Figma design, and determined the routing of the application.",
+    technologies: ["React", "Redux Toolkit", "TailwindCss", "Javascript"],
+    date: "03/4/2023",
+    link: "https://instituto-antonucci.vercel.app/",
+    text: "Website designed for the Elisabeth Antonucci Dance Institute.My tasks consisted of creating a website following the institute's aesthetic. We created a landing page, a schedule page, and a section for each activity.Once the design was completed in Figma, we translated it into custom code tailored to the client's needs.",
+    client: {
+      clientName: "Instituto Antonucci",
+      clientTestimony: "",
+    },
+  },
+  {
+    name: "Project OMAS Remitos",
+    projectType: "Freelance",
+    images: [RemitoLogin, RemitoOda, Remitoacc,Remitoddt, RemitoFattura],
+    tasks:
+      "Defined the aesthetic of the page, developed React based on the Figma design, and determined the routing of the application.",
+    technologies: ["React", "Redux Toolkit", "TailwindCss", "Javascript"],
+    date: "20/2/2023",
+    link: "https://omas-remito.vercel.app/",
+    text: "At a startup, I was tasked with creating a Figma that defined the styles of the page according to the client's requests. Then, I developed the page from scratch using React. As part of my responsibilities, I worked on developing the frontend, creating custom hooks, and componentizing to improve the application's performance.",
+    client: {
+      clientName: "OMAS s.p.a",
+      clientTestimony: "",
+    },
+  },
+  {
     name: "Project OMAS s.p.a",
     projectType: "Freelance",
-    images: [Omas],
+    images: [Omas, Omasdnd, OmasDash,OmasLogin],
     tasks:
       "Defined the aesthetic of the page, developed React based on the Figma design, and determined the routing of the application.",
     technologies: ["React", "Redux Toolkit", "MUI", "Javascript"],
     date: "20/2/2023",
-    link: "",
+    link: "https://omas-alpha.vercel.app/",
     text: "At a startup, I was tasked with creating a Figma that defined the styles of the page according to the client's requests. Then, I developed the page from scratch using React. As part of my responsibilities, I worked on developing the frontend, creating custom hooks, and componentizing to improve the application's performance.",
     client: {
       clientName: "OMAS s.p.a",
