@@ -8,6 +8,7 @@ import kmk from "../../assets/kmkland.jpeg";
 import galu from "../../assets/dashl.jpeg";
 import dashboard from "../../assets/dashboard.jpeg";
 import Carousel from "../carousel/Carrusel2/Carrusel2";
+import Carousel2 from "../carousel/Carrusel2/Carrusel3";
 
 const Projects = () => {
   const arrImages = [kmk, galu, dashboard];
@@ -35,7 +36,7 @@ const Projects = () => {
       </div>
 
       <div className="project-box">
-        <Carousel images={arrImages}/>
+        <Carousel2 images={arrImages} />
         {/* <ProjectsCarrousel images={arrImages} /> */}
       </div>
     </div>
