@@ -14,9 +14,9 @@ const Landing = () => {
         <div className="title">Hi, I'm Nahuel Cempellin!</div>
         <Carrousel />
         <p className="text">
-          I'm a Full Stack developer and React.js Tutor at Coderhouse, with a
-          degree from the Soy Henry bootcamp and a year of experience as a
-          frontend developer.
+          Full Stack developer and React.js Tutor at Coderhouse, with a degree
+          from the Soy Henry bootcamp and a year of experience as a frontend
+          developer.
         </p>
         <div className="button-container">
           <a href="#studies" className="more">

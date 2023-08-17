@@ -2,13 +2,13 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
-    /* align-items: center;
-    justify-content: space-between; */
+    
 }
 
 .landing-container{
     
     width: 100%;
+    
 }
 
 .titleContainer{
@@ -16,10 +16,12 @@
     height: 30em;
     margin-top:9em;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
     flex-direction: column;
-    
+    padding: 2em;
+    margin-left: 150px;
+    /* border: 1px solid white; */
     
 }
 
@@ -35,7 +37,7 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
 .text{
     padding: .5em;
     margin-top: 6em;
-    margin-left: -2em;
+    
     font-weight: 100;
     width: 45em;
 
@@ -44,14 +46,12 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
 }
 
 .button-container{
-    /* margin-top: -5em; */
-    margin-left: -10em;
+  
     width: 35em;
     height: 6em;
     display: flex;
     align-items: center;
     justify-content: space-between;
-   
     
 }
 
@@ -65,12 +65,14 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
     justify-content: space-around;
     font-size: 1em;
     border: none;
+
     
 }
 
 .button-container a{
-    width: 45%;
-    padding-left: 1em;
+   
+    width: 250px;
+    padding:0;
     height: 3em;
     border-radius: 10em;
     display: flex;
@@ -145,7 +147,7 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
         width: 100%;
         min-height: 100vh;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         /* align-items: center;
@@ -182,6 +184,17 @@ background: linear-gradient(to right, #6df2a4 0%, #7E9FE3 100%);
     }
 }
 
+
+@media screen and (max-width:1024px ){
+    .titleContainer{
+        /* border:1px solid white; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
 
 
 @media screen and (max-width:700px ){
